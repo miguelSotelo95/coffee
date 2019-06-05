@@ -1,0 +1,197 @@
+	<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no,
+	 initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600,700" rel="stylesheet">
+	<link rel="stylesheet" href="css/estilos1.css">
+	<title>Capuchino Time</title>
+</head>
+<body>
+	<header>
+		<div class="contenedor">
+			<nav class="menu">
+				<a href="#" id="btn-acerca-de">Acerca de</a>
+				<a href="#" id="btn-menu">Menu</a>
+				<a href="#" id="btn-galeria">Galeria</a>
+				<a href="#" id="btn-ubicacion">Ubicacion</a>
+				<a href="#" id="btn-contacto">Pedidos</a>
+			</nav>
+
+			<div class="textos">
+				<h1 class="nombre">Capuchino <span>Time</span></h1>
+				<h3>Un cafe, una persona.</h3>
+
+			</div>
+		</div>
+	</header>
+
+	<section class="main">
+		<section class="acerca-de" id="acerca-de">
+			<div class="contenedor">
+				<div class="foto">
+					<img src="img/acerca-de.jpg" alt="">
+				</div>
+				<article>
+					<h3>Acerca de</h3>
+					<p>Somos un equipo de personas que dan lo mejor de sí mismo, comprometidas con cada uno de nuestros clientes, simpre dispuestos a dar un servicio de alta calidad.</p>
+
+					<p>Capuchino Shop a llegado ha ser uno de los lugares preferidos para degustar un delicioso cafe y recibir una atención especial, pero nuestro mayor reto siempre sera verte feliz.</p>
+				</article>
+			</div>
+		</section>
+
+		<section class="menu">
+			<div class="contenedor">
+				<h3 class="titulo" id="platillos">Menu</h3>
+				<div class="contenedor-menu">
+					<div class="contenedor-menu2">
+						<article>
+							<p class="categoria">De Comer</p>
+							<div class="platillo">
+								<p class="nombre">Crepa</p>
+								<p class="precio">$15</p>
+								<p class="descripcion">Postre o refrigerio que puede ser disitndos sabores</p>
+							</div>
+							<div class="platillo">
+								<p class="nombre">Rebanada de Pastel</p>
+								<p class="precio">$10</p>
+								<p class="descripcion">Pastel hecho de forma tradiconal</p>
+							</div>
+							<div class="platillo">
+								<p class="nombre">Brownie</p>
+								<p class="precio">$20</p>
+								<p class="descripcion">Para los amantes del chocolate, una gran opciones.</p>
+							</div>
+							<div class="platillo">
+								<p class="nombre">Croasan</p>
+								<p class="precio">$35</p>
+								<p class="descripcion">Refrigerio italiano basado en pan con algun tipo de carne.</p>
+							</div>
+						</article>
+
+						<article>
+							<p class="categoria">De Tomar</p>
+							<div class="platillo">
+								<p class="nombre">Americano</p>
+								<p class="precio">$15</p>
+								<p class="descripcion">tradicional y fuerte.</p>
+							</div>
+							<div class="platillo">
+								<p class="nombre">MOcKa</p>
+								<p class="precio">$15</p>
+								<p class="descripcion">Una mezcla diseñada para disfrutar.</p>
+							</div>
+							<div class="platillo">
+								<p class="nombre">Capuchino</p>
+								<p class="precio">$15</p>
+								<p class="descripcion">Las alturas de delicioso y espumoso sabor.</p>
+							</div>
+							<div class="platillo">
+								<p class="nombre">Machiato</p>
+								<p class="precio">$15</p>
+								<p class="descripcion">Que tal algo goumert.</p>
+							</div>
+						</article>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="galeria" id="galeria">
+			<div class="foto">
+				<img src="img/2.gif" alt="">
+			</div>
+			<div class="foto">
+				<img src="img/3.gif" alt="">
+			</div>
+			<div class="foto">
+				<img src="img/8.gif" alt="">
+			</div>
+			<div class="foto">
+				<img src="img/1.gif" alt="">
+			</div>
+			<div class="foto">
+				<img src="img/5.gif" alt="">
+			</div>
+			<div class="foto">
+				<img src="img/6.gif" alt="">
+			</div>
+			<div class="foto">
+				<img src="img/7.gif" alt="">
+			</div>
+			<div class="foto">
+				<img src="img/4.gif" alt="">
+			</div>
+		</section>
+
+		<section class="ubicacion" id="ubicacion">
+			<div class="contenedor">
+				<h3 class="titulo">Ubicacion</h3>
+				<div class="direccion">
+					<p class="calle">Av. Benito Juarez #66<br />Iguala, Gro 40015</p><br>
+					<p class="telefono">(733) 148-7041</p>
+					<p class="correo">capuchinoshop@gmail.com</p>
+				</div>
+
+				<div class="horarios">
+					<h4>Horarios</h4>
+					<p class="entre-semana">Lunes a Viernes <br> 8:00am - 9:00pm</p>
+					<p class="fin-semana">Sabados y Domingos <br> 11:00am - 11:00pm</p>
+				</div>
+			</div>
+		</section>
+
+		<section class="mapa">
+			<iframe src="https://satellites.pro/mapa_de_Iguala_de_la_Independencia#18.351501,-99.541916,17" width="1600" height="550" frameborder="0" style="border:0" allowfullscreen></iframe>
+		</section>
+	</section>
+
+	<footer>
+
+		<section class="contacto" id="contacto">
+			<h3 class="titulo">Pedidos</h3>
+
+			<div class="form">
+				<form class="formulario" action="guardar.php" method="POST">
+
+
+		<input type="text" name="nombre" placeholder="Nombre" required="">
+		<br>
+
+		<input type="text" name="correo" placeholder="Mail@mail.com" required="">
+		<br>
+
+		<textarea name="mensaje" placeholder="Mensaje" required=""></textarea>
+		<br>
+		<br>
+		<br>
+		<input class="boton" type="submit" value="Enviar">
+		<input class="boton" type="reset" value="Limpiar">
+
+				</form>
+			</div>
+
+
+		<section class="redes-sociales">
+			<div class="contenedor">
+				<a class="twitter" href="http://www.twitter.com/capuchinoshop"><i class="fa fa-twitter"></i></a>
+				<a class="facebook" href="http://www.facebook.com/capuchonrs"><i class="fa fa-facebook"></i></a>
+				<a class="youtube" href="http://www.youtube.com/capuchers"><i class="fa fa-youtube-play"></i></a>
+				<a class="instagram" href="http://www.instagram.com/capuchas"><i class="fa fa-instagram"></i></a>
+			</div>
+		</section>
+
+		<div class="contenedor">
+			<div class="copyright">
+				<p>Copyright CapuchinoShop @ 2019</p>
+			</div>
+		</div>
+	</footer>
+
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/efectos.js"></script>
+	<script src="js/parallax.js"></script>
+</body>
+</html>
